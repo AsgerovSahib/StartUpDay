@@ -1,0 +1,30 @@
+header {
+  margin-bottom: 10px;
+}
+h1 {
+  color: #26a2b2;
+  font-family: "Lilita One", sans-serif;
+  letter-spacing: 4px;
+  display: flex;
+  justify-content: center;
+  color: #eac160;
+  text-shadow: #4327b4 4px 2px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav button {
+    padding: 5px;
+  border-radius: 6px;
+  background-color: #4327b4;
+  color: #eac160;
+  font-family: "Lilita One", sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+  border: none;
+  /* transition: all 0.6 ease; */
+}
+nav button:active{
+    transform: scale(0.8);
+}
