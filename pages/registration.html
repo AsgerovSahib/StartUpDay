@@ -6,7 +6,7 @@
     <title>StartUpDay</title>
     <link rel="stylesheet" href="../style/main.css" />
     <link rel="stylesheet" href="../style/index.css" />
-    <link rel="stylesheet" href="../style/registration.css">
+    <link rel="stylesheet" href="../style/registration.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +16,30 @@
     />
   </head>
   <body>
-    <header><h1>StartUpDay</h1></header>
+    <img
+      style="
+        position: absolute;
+        z-index: -20;
+        top: 0;
+        right: 0;
+        width: 100%;
+        opacity: 0.5;
+      "
+      width="100%"
+      src="../canvas/bg-canva-2.jfif"
+      alt=""
+    />
+
+    <header>
+      <h1>
+        Start .<span style="position: relative"
+          ><img
+            style="width: 65px; position: absolute; right: -30px; top: -20px"
+            src="../canvas/rocker-logo-without-bg.png"
+            alt="" /></span
+        >. Day
+      </h1>
+    </header>
     <nav>
       <div>
         <a href="../index.html"><button>StartUpDay</button></a>
@@ -26,16 +49,35 @@
       </div>
     </nav>
     <section>
-        <form action="">
-            <label for="">Adınız Soyadınız</label>
-            <input type="text">
-            <label for="">Əlaqə nömrəniz</label>
-            <input type="number">
-            <label for="">Gmain adresiniz</label>
-            <input type="email">
-        </form>
-
-        
+      <form action="">
+        <label  for="">Adınız Soyadınız</label>
+        <input class="class" type="text" />
+        <label for="">Əlaqə nömrəniz</label>
+        <input class="class" type="number" />
+        <label for="">Gmain adresiniz</label>
+        <input  class="class" type="email" />
+        <label for="">Universitet</label>
+        <input class="class" type="text" />
+        <label for="">Komanda adı</label>
+        <input class="class" type="text" />
+        <label for="">Komanda üzvləri min 3 max 5</label>
+        <input class="class" type="text" />
+        <label for="">Layihə adı </label>
+        <input class="class" type="text" />
+        <label for="">Layihəni təsvir et </label>
+        <input class="class" type="text" />
+        <label for="">Layihə versiyası( ideya mvp)</label>
+        <input class="class" type="text" />
+        <label for="">Həll etdiyi problem</label>
+        <input class="class" type="text" />
+        <label for="">Tiqdimat varsa əgər məcburi deyil</label>
+        <input class="class" type="text" />
+      </form>
+    </section>
+    <section>
+      <div class="finish">
+        <button>Bitir</button>
+      </div>
     </section>
     <footer></footer>
   </body>
