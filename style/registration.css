@@ -1,40 +1,47 @@
 form {
+  background-color: rgb(81 80 204 / 70%);
+  border-radius: 10px;
   margin-top: 10px;
   padding: 10px;
   display: flex;
   flex-direction: column;
-  color: #eac160;
+
   gap: 10px;
   font-size: 18px;
 }
 form input {
   padding: 8px;
   font-size: 16px;
-  color: antiquewhite;
+}
+form textarea {
+  padding: 8px;
+  font-size: 16px;
 }
 form label {
   padding: 3px;
   border-radius: 5px;
-  color: black;
+  color: white;
   letter-spacing: 2px;
-  background: rgb(0, 255, 231);
+  /* background: rgb(0, 255, 231);
   background: linear-gradient(
     90deg,
-    rgba(0, 255, 229, 0.826) 0%,
+    rgba(0, 255, 229, 0.656) 0%,
     rgba(9, 9, 121, 0.6419817927170868) 100%
-  );
+  ); */
 }
 
 .class {
-  background: rgb(9, 9, 121);
+  /* background: rgb(9, 9, 121);
   background: linear-gradient(
     90deg,
-    rgba(9, 9, 121, 1) 0%,
-    hsla(174, 100%, 50%, 0.686) 100%
-  );
-  border: none;
+    rgba(9, 9, 121, 0.42) 0%,
+    hsla(174, 100%, 50%, 0.524) 100%
+  ); */
+  border: 1px solid #fff;
   opacity: 0.8;
+  outline: none;
   border-radius: 8px;
+  border-bottom: 2px solid white;
   /* border-top: 2px solid white;
   border:2px solid white; */
   /* box-shadow: #eac160 2px 4px 6px 2px; */
@@ -42,18 +49,19 @@ form label {
   border-left: solid 3px rgb(255, 255, 255); */
 }
 
-.finish button{
-  
-  padding: 5px;
+form button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
   border-radius: 6px;
-  background-color: #4327b4;
-  color: #eac160;
+  /* background-color: #4327b4;
+  color: #eac160; */
   font-family: "Lilita One", sans-serif;
   letter-spacing: 2px;
   font-size: 20px;
   border: none;
-
+  transition: all 0.2;
 }
-.finish button:active {
-  transform: scale(0.8);
+form button:active {
+  transform: scale(0.95);
 }
